@@ -13,7 +13,7 @@ def index():
     objects_str = '<h1>Hello World</h1>'
     objects = controller.get_all()
     if len(objects) == 0:
-        objects_str += "<p>No objects in the database! Use /add?name=object_name to add new object.</p>"
+        objects_str += "<p>No objects in the database! Use /add?name=object_name to add a new object.</p>"
     else:
         objects_str += '<ul>'
         for each in objects:

@@ -2,3 +2,4 @@ flask
 Flask-SQLAlchemy
 Flask-Testing
 Flask-API
+Flask-Testing

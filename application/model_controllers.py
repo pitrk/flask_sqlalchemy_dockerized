@@ -31,9 +31,9 @@ class ExampleModelController:
         example_model_object.name = new_name
         db.session.commit()
 
-    def get_all(self):
+    def get_all(self) -> list:
         return ExampleModel.query.all()
 
-    def delete_all(self):
+    def delete_all(self) -> None:
         ExampleModel.query.delete()
         db.session.commit()
